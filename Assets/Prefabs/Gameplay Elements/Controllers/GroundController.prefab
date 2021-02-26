@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4902852999595473503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4902852999595473501}
+  - component: {fileID: 4902852999595473500}
+  m_Layer: 0
+  m_Name: GroundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4902852999595473501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4902852999595473503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.266544, y: -4.38, z: -1.1900024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4902852999595473500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4902852999595473503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5d19c6077c2eb4ea8437157c2b775d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameC: {fileID: 0}
+  waterArray:
+  - {fileID: 4391670567119791965, guid: a3038b7820743c24eac17f5baa850fcd, type: 3}
+  - {fileID: 4391670567119791965, guid: 6124c10167f42894a97dab52815c3650, type: 3}
+  - {fileID: 4391670567119791965, guid: c4cdf136e1a581549a0536029d40ce20, type: 3}
+  - {fileID: 4391670567119791965, guid: b30f7893ffa2e7a46879e0b7912b0521, type: 3}
+  - {fileID: 4391670567119791965, guid: 5f4f2a2d5c1678445a1cc92f421e29a1, type: 3}
+  - {fileID: 4391670567119791965, guid: 2fab0174bc086fb49a11dfd1cdc73314, type: 3}
+  fireArray:
+  - {fileID: 7993257942050077226, guid: 5646bcfdf349ef74b8e82a9616a6e454, type: 3}
+  - {fileID: 7993257942050077226, guid: 28205944519ae9e4ab857f4a7901600c, type: 3}
+  - {fileID: 7993257942050077226, guid: bd3c8a20be2f1ef408aac630d09dbc78, type: 3}
+  - {fileID: 7993257942050077226, guid: 94b468cf93a7a834aad795cecbbffcfe, type: 3}
+  - {fileID: 7993257942050077226, guid: 08fddbe8df65b7d4bbd31ce035f97d84, type: 3}
+  - {fileID: 7993257942050077226, guid: 4593a3a0894318a4b8cae925c28ac56f, type: 3}
+  earthArray:
+  - {fileID: 7796811562611194007, guid: 3860259742f7fc8429fb965cea212ec6, type: 3}
+  - {fileID: 7796811562611194007, guid: eba3e194e5e5ee64491988ee910ab008, type: 3}
+  - {fileID: 7796811562611194007, guid: f0d41cd94ba44a34c92e35cf8b48be7c, type: 3}
+  - {fileID: 7796811562611194007, guid: 906786f4010c4ad488c5a2c8941ac3e5, type: 3}
+  - {fileID: 7796811562611194007, guid: db4305a75b5548741b37a283a0c812af, type: 3}
+  airArray:
+  - {fileID: 8937065522495510325, guid: d1f4f7b0bdf024d4ab9039f9fe3b74de, type: 3}

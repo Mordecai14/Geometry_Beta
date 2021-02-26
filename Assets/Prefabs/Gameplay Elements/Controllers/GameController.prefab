@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1493801546784655642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1493801546784655640}
+  - component: {fileID: 1493801546784655643}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1493801546784655640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493801546784655642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.953454, y: -1.57022, z: 255.50793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1493801546784655643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493801546784655642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f2d12467ca2924e812632d368b7137, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameState: 3
+  secState: 0
+  waterScene: {fileID: 3624008396367159138, guid: 8d1ecbd649ae3d841aafbca6bdddc3fc,
+    type: 3}
+  fireScene: {fileID: 4454105978745209520, guid: e6d380e27995f59438d8e2bc351407de,
+    type: 3}
+  earthScene: {fileID: 1852847350175095594, guid: ec57a8345e4add24d9c56ca8fa30099a,
+    type: 3}
+  airScene: {fileID: 8267226564247778074, guid: e41698327092dc04db2d12cc2dad1d39,
+    type: 3}
+  waterCamera: {fileID: 7918609332328336204, guid: 26d0fc7fcb3ba6f46a97f6f3d121a380,
+    type: 3}
+  fireCamera: {fileID: 9220902494476448589, guid: 8bc306a8effb28542b61dbc085e014bf,
+    type: 3}
+  eartCamera: {fileID: 1431449339711623446, guid: 6bb9d4cd74ca036409a6045cf43dc104,
+    type: 3}
+  airCamera: {fileID: 7436555717636690093, guid: 03fd5b30f39eee64f8fded2ecb8b501a,
+    type: 3}
+  playerWater: {fileID: 2866378204136092297, guid: d0dfc82bf7b1efe4390a80d242ae9522,
+    type: 3}
+  playerFire: {fileID: 8430012983388790906, guid: 9e4b0db3c751bdb418b0d0697051666f,
+    type: 3}
+  PlayerEarth: {fileID: 4276159944655297592, guid: 81644b40523242e4ea47470956fba697,
+    type: 3}
+  PlayerAir: {fileID: 8352511453398051154, guid: 8ad9667c17a8e9d44a058aca6fef3142,
+    type: 3}
+  gwater: {fileID: 5228201744700288652, guid: 12dd32823f6bad84fa7dad44d9de14f4, type: 3}
+  gFire: {fileID: 8980148095695341505, guid: 5832cd62e9fe4964181122f8463eb48f, type: 3}
+  gEarth: {fileID: 2631328302770522013, guid: 6605b50d7e37d4d41a75803fa45c296d, type: 3}
+  gAir: {fileID: 6643982367842454228, guid: f64dff84e52dfe54ca65cd64679ac012, type: 3}
+  masterPlayer: {fileID: 2866378204136092297, guid: d0dfc82bf7b1efe4390a80d242ae9522,
+    type: 3}
+  fadePanel: {fileID: 6415742933173088600, guid: 03e0912621af74342accdc771cedd88a,
+    type: 3}
+  star: {fileID: 6537692576684621565, guid: 185ce52da95c7174e8c48d9399a95803, type: 3}
+  losePanel: {fileID: 8155911917478170989, guid: fc77a6937c9c72d4b92d9b595b8ca1e1,
+    type: 3}
+  scoreText: {fileID: 1405065671362898705, guid: 36d30b6e13f1ad9499368f7bc489e69b,
+    type: 3}
+  highScoreText: {fileID: 5201018536169916315, guid: 1d1d06047a1c1564a96205ebfae1578f,
+    type: 3}
+  score: 0
+  highScore: 0
