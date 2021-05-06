@@ -71,6 +71,7 @@ Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-aut
 Assets/GeneratedLocalRepo/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.meta
 Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-cloud-messaging-unity/7.0.2.meta
 Assets/PlayServicesResolver/Editor.meta
+Assets/Firebase
 
 # This may be different if it is changed in Android Resolver settings
 Assets/GeneratedLocalRepo/
