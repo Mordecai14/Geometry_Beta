@@ -58,3 +58,17 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+# ================ #
+# Custom generated #
+# ================ #
+Executables/
+AssetBundles/
+AssetBundles.meta
+TPS_cache/
+Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/7.0.2.meta
+Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-auth-unity/7.0.2.meta
+Assets/GeneratedLocalRepo/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.meta
+Assets/PlayServicesResolver/Editor.meta
+
+
